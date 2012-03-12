@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Pungentpuns::Application.config.secret_token = '440c90dcdf7e623afbf17e25e4a4f5aa7c8e0be05926845e82f0d8fdac900b67f128bbea05343657435e7044f75898c3b053de080fcef57d6f732f11335f3eb9'
+Pungentpuns::Application.config.secret_token = 'd7801431ba8abafa8a1d44f31c4e414126d09edf894d6f54ae84cf82472b7e7dd96b8d1361cb21497c2b107ada2a01cd908abc5865981d5fa6026ed822359194'

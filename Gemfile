@@ -5,14 +5,15 @@ gem 'rails', '3.2.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# gem 'sqlite3' # this gem is not supported by heroku
-gem 'pg' # postgresql -> however, this database IS supported by Heroku
-
-gem 'heroku'
+gem 'pg'
 
 gem 'savon'
-#gem 'wordnik', '~> 4.06.15'
-#gem 'typhoeus'#, '~> 0.2.1'
+
+gem 'wordnik' # typhoeus has issues on windows, but will see if this operation works in the cloud
+
+gem 'nokogiri'
+
+
 
 
 # Gems used only for assets and not required
@@ -29,14 +30,15 @@ end
 
 gem 'jquery-rails'
 
-
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
-gem 'omniauth-twitter'
 gem 'omniauth-facebook'
+gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-identity'
+
+
 
 
 # To use Jbuilder templates for JSON
