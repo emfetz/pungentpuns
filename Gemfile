@@ -9,7 +9,7 @@ gem 'pg'
 
 gem 'savon'
 
-gem 'wordnik' # typhoeus has issues on windows, but will see if this operation works in the cloud
+# gem 'wordnik' # typhoeus has issues on windows, but will see if this operation works in the cloud
 
 gem 'nokogiri'
 

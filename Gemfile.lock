@@ -154,6 +154,7 @@ DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
+  nokogiri
   omniauth-facebook
   omniauth-google-oauth2
   omniauth-identity
