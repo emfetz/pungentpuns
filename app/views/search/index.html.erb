@@ -22,6 +22,9 @@
   </dl>
 <% end %>
 
+<hr>
+<h1>Spellcheck</h1>
+
 <%= form_tag root_url, method: :get do %>
 <p>
   <%= text_field_tag :query, params[:query] %>
@@ -30,7 +33,7 @@
 <% end %>
 
 <% if @spellcheck %>
-  <dl id ="zip_info">
+  <dl id ="spellcheck-info">
     <dt>Correction:</dt>
     <dd><%= @spellcheck.value %></dd>
   </dl>
