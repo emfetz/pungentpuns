@@ -5,9 +5,9 @@ gem 'rails', '3.2.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+#gem 'pg'
 
-gem 'savon'
+#gem 'savon'
 
 # gem 'wordnik' # typhoeus has issues on windows, but will see if this operation works in the cloud
 
@@ -34,7 +34,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+#gem 'bcrypt-ruby', '~> 3.0.0'
 
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'

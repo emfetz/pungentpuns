@@ -29,10 +29,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     addressable (2.2.7)
-    akami (1.0.0)
-      gyoku (>= 0.4.0)
     arel (3.0.2)
-    bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -48,12 +45,8 @@ GEM
       addressable (~> 2.2)
       multipart-post (~> 1.1)
       rack (~> 1.1)
-    gyoku (0.4.4)
-      builder (>= 2.1.2)
     hashie (1.2.0)
     hike (1.2.1)
-    httpi (0.9.6)
-      rack
     i18n (0.6.0)
     journey (1.0.3)
     jquery-rails (2.0.1)
@@ -68,7 +61,6 @@ GEM
     multi_json (1.1.0)
     multipart-post (1.1.5)
     nokogiri (1.5.2-x86-mingw32)
-    nori (1.1.0)
     oauth (0.4.5)
     oauth2 (0.5.2)
       faraday (~> 0.7)
@@ -123,14 +115,6 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    savon (0.9.9)
-      akami (~> 1.0)
-      builder (>= 2.1.2)
-      gyoku (>= 0.4.0)
-      httpi (~> 0.9)
-      nokogiri (>= 1.4.0)
-      nori (~> 1.1)
-      wasabi (~> 2.1)
     sprockets (2.1.2)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -144,14 +128,11 @@ GEM
     uglifier (1.2.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
-    wasabi (2.1.0)
-      nokogiri (>= 1.4.0)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bcrypt-ruby (~> 3.0.0)
   coffee-rails (~> 3.2.1)
   jquery-rails
   nokogiri
@@ -162,5 +143,4 @@ DEPENDENCIES
   pg
   rails (= 3.2.2)
   sass-rails (~> 3.2.3)
-  savon
   uglifier (>= 1.0.3)
